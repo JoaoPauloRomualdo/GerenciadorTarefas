@@ -1,0 +1,37 @@
+
+@media(min-width:360px){
+    :root
+    {
+        font-size: 70%;
+    }
+
+    headear {
+        max-width: 30%;
+    }
+
+    #app{
+        max-width: 500px;
+        display: flex;
+    }
+
+    #app input{
+        padding:10px 40px;
+        width: 90%;
+    }
+
+    #app button{
+        padding: 8px 20px;
+        
+        line-height: 30px;
+        
+        border-radius: 30px;
+        border: none;
+        color: white;
+        background-color: #8257e5;
+        
+        cursor: pointer;
+        outline: none;
+    } 
+
+
+}
